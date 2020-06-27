@@ -13,7 +13,8 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let cfrKuhn = CFRKuhn()
+        cfrKuhn.run(numIters: 100000)
     }
 
     override var representedObject: Any? {

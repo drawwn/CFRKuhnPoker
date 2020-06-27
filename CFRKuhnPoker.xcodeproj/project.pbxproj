@@ -11,6 +11,8 @@
 		7B42B83E24A7EC260067FF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42B83D24A7EC260067FF1B /* ViewController.swift */; };
 		7B42B84024A7EC280067FF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B42B83F24A7EC280067FF1B /* Assets.xcassets */; };
 		7B42B84324A7EC280067FF1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B42B84124A7EC280067FF1B /* Main.storyboard */; };
+		7B42B84C24A7EC350067FF1B /* CFRKuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42B84B24A7EC350067FF1B /* CFRKuhn.swift */; };
+		7B42B84E24A7ECBA0067FF1B /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B42B84D24A7ECBA0067FF1B /* ArrayExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		7B42B84224A7EC280067FF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B42B84424A7EC280067FF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B42B84524A7EC280067FF1B /* CFRKuhnPoker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CFRKuhnPoker.entitlements; sourceTree = "<group>"; };
+		7B42B84B24A7EC350067FF1B /* CFRKuhn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFRKuhn.swift; sourceTree = "<group>"; };
+		7B42B84D24A7ECBA0067FF1B /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +59,12 @@
 			children = (
 				7B42B83B24A7EC260067FF1B /* AppDelegate.swift */,
 				7B42B83D24A7EC260067FF1B /* ViewController.swift */,
+				7B42B84B24A7EC350067FF1B /* CFRKuhn.swift */,
 				7B42B83F24A7EC280067FF1B /* Assets.xcassets */,
 				7B42B84124A7EC280067FF1B /* Main.storyboard */,
 				7B42B84424A7EC280067FF1B /* Info.plist */,
 				7B42B84524A7EC280067FF1B /* CFRKuhnPoker.entitlements */,
+				7B42B84D24A7ECBA0067FF1B /* ArrayExtensions.swift */,
 			);
 			path = CFRKuhnPoker;
 			sourceTree = "<group>";
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B42B84C24A7EC350067FF1B /* CFRKuhn.swift in Sources */,
 				7B42B83E24A7EC260067FF1B /* ViewController.swift in Sources */,
 				7B42B83C24A7EC260067FF1B /* AppDelegate.swift in Sources */,
+				7B42B84E24A7ECBA0067FF1B /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
